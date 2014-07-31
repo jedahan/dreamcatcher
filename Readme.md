@@ -10,7 +10,7 @@ Requires [libtins](libtins.github.io) and an [updated kernel]()
 
 #### Updating the beaglebone kernel
 
-As root
+As root (thanks [datko](http://datko.net/2014/03/21/bbb_upgrade_3_13/))
 
     curl -OL https://rcn-ee.net/deb/wheezy-armhf/v3.15.6-bone5/install-me.sh
     chmod +x install-me.sh
