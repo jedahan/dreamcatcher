@@ -1,5 +1,5 @@
 CFLAGS=-Wall -O2 -std=c++0x
-LDFLAGS=-ltins
+LDFLAGS=-ltins -L/usr/local/lib -I/usr/local/include
 EXECUTABLES=probecatcher
 
 .PHONY: clean all install
